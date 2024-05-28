@@ -10,5 +10,7 @@ async function bootstrap() {
     credentials: true,
   });
   await app.listen(80);
+
+  console.log(`Server Start at}`)
 }
 bootstrap();
